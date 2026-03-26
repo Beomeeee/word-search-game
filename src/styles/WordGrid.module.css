@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 2px;
+  user-select: none;
+}
+
+.cell {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #f1f5f9;
+  color: #1e293b;
+  transition: background 0.15s;
+}
+
+.cell:hover {
+  background: #c7d2fe;
+}
+
+.found {
+  background: #4f46e5;
+  color: white;
+}
+
+.selected {
+  background: #a5b4fc;
+  color: #1e293b;
+}
