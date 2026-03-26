@@ -76,11 +76,15 @@ function GamePage() {
     if (foundWords.length === game.words.length) {
       clearInterval(timerRef.current);
       setTimeout(() => {
-        const result = window.confirm(
-          `🎉 축하해요! 모든 단어를 찾았어요!\n소요 시간: ${formatTime(elapsed)}\n\n새 게임을 만들러 갈까요?`,
-        );
-        if (result) navigate("/maker");
-      }, 300);
+        navigate(`/game/${gameId}/result`, {
+          state: {
+            playerName,
+            elapsed,
+            foundCount: foundWords.length,
+            totalCount: game.words.length,
+          },
+        });
+      }, 500);
     }
   }, [foundWords, game]);
 
