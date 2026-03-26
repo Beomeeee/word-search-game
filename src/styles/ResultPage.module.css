@@ -1,0 +1,175 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.playerName {
+  color: #4f46e5;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statItem {
+  flex: 1;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.replayBtn {
+  flex: 1;
+  padding: 0.85rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.replayBtn:hover {
+  background: #4338ca;
+}
+
+.homeBtn {
+  flex: 1;
+  padding: 0.85rem;
+  background: white;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.homeBtn:hover {
+  background: #eef2ff;
+}
+.leaderboard {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.leaderboardTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  font-size: 0.9rem;
+}
+
+.rank1 {
+  background: #fef9c3;
+}
+.rank2 {
+  background: #f1f5f9;
+}
+.rank3 {
+  background: #fff7ed;
+}
+
+.me {
+  border: 2px solid #4f46e5;
+}
+
+.rank {
+  width: 24px;
+}
+
+.name {
+  flex: 1;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.meTag {
+  font-size: 0.75rem;
+  background: #4f46e5;
+  color: white;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+.score {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.time {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
