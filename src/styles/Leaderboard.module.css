@@ -1,0 +1,66 @@
+.container {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-width: 200px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  font-size: 0.9rem;
+}
+
+.rank1 {
+  background: #fef9c3;
+}
+
+.rank2 {
+  background: #f1f5f9;
+}
+
+.rank3 {
+  background: #fff7ed;
+}
+
+.rank {
+  font-size: 1rem;
+  width: 24px;
+}
+
+.name {
+  flex: 1;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.score {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.time {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
