@@ -1,16 +1,39 @@
-# React + Vite
+# Word Search Game 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+단어 찾기 퍼즐 게임 프로젝트입니다.
 
-Currently, two official plugins are available:
+## 배포 URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> 추후 배포 후 링크 추가
 
-## React Compiler
+## 프로젝트 소개
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+관리자가 단어 목록을 등록하여 Word Search 퍼즐 게임을 생성하고,
+링크를 통해 다른 유저들이 참여할 수 있는 실시간 단어 찾기 게임입니다.
 
-## Expanding the ESLint configuration
+## 개발 기간
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 2026.03 ~
+
+## 기술 스택
+
+| 분류       | 기술                       |
+| ---------- | -------------------------- |
+| 프레임워크 | React 19 + Vite            |
+| 라우팅     | React Router DOM v7        |
+| 백엔드     | Firebase Realtime Database |
+| 스타일     | CSS Modules                |
+
+## 주요 기능
+
+### Word Search Maker (어드민)
+
+- 게임 제목, 설명 입력
+- 영어 단어 10개 이상 등록
+- 게임 생성 후 참여 링크 발급
+
+### 게임 페이지
+
+- 15x15 ~ 17x17 랜덤 퍼즐 격자 생성
+- 마우스 드래그로 단어 선택
+- 정답 단어 찾으면 격자와 단어 목
